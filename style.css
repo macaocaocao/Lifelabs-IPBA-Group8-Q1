@@ -1,0 +1,48 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body
+{
+    background-image: url(ff9254b76ebf988ce6e4c7d717b87514.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.menu-bar
+{
+    background: rgb(46, 24, 9);
+    text-align: center;
+}
+.menu-bar ul
+{
+    display: inline-flex;
+    list-style: none;
+    color: beige;
+
+}
+.menu-bar ul li
+{
+    width: 200px;
+    margin: 15px;
+    padding: 15px;
+}
+.menu-bar ul li a
+{
+    text-decoration: none;
+    color: beige;
+}
+.active, .menu-bar ul li:hover
+{
+    background: #917014;
+    border-radius: 3px
+}
+.menu-bar .fa
+{
+    margin-right: 10px;
+}
